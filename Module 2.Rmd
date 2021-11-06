@@ -1,0 +1,20 @@
+---
+title: "Model 2"
+author: "Rafael Charris"
+date: "11/4/2021"
+output: pdf_document
+---
+
+# Use of force and ethnicity
+
+$k$: county
+
+$i$: Type of force (Compliance Hold, Hands Fists, Pepper Spray, Baton, Leg Strikes, Deadly Force, Take down)
+
+$$
+\text{Prob(Using Froce}_{ik}) = \beta_{1}\text{Ethnicity}[j] + 
+\beta_{2}\text{(Crime Rate AdjPop)}_{k} + 
+\beta_{3}\text{Prob(Threat[t])}_{k} + 
+\beta_{4}\text{Ethnicity}[j]*\text{Prob(Threat}[t]) +
+\beta_{5}\text{(Per Ethnicity[j])}
+$$
