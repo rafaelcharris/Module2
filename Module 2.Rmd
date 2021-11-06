@@ -11,6 +11,8 @@ $k$: county
 
 $i$: Type of force (Compliance Hold, Hands Fists, Pepper Spray, Baton, Leg Strikes, Deadly Force, Take down)
 
+
+We need to take into account that we don't have information of ethnicity as a categorical variable. Only the proportion of each ethnicity 
 $$
 \text{Prob(Using Froce}_{ik}) = \beta_{1}\text{Ethnicity}[j] + 
 \beta_{2}\text{(Crime Rate AdjPop)}_{k} + 
