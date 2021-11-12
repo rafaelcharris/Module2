@@ -1,0 +1,7 @@
+http://zevross.com/blog/2015/10/14/manipulating-and-mapping-us-census-data-in-r-using-the-acs-tigris-and-leaflet-packages-3/#interactive-plotting-with-the-leaflet-package-not-leafletr
+
+https://rpubs.com/walkerke/tigris01
+
+https://crd230.github.io/lab3.html
+
+https://juliasilge.com/blog/using-tidycensus/
