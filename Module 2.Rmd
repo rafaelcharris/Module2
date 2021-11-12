@@ -1,6 +1,6 @@
 ---
 title: "Model 2"
-author: "Rafael Charris"
+author: "Rafael Charris & Steve Vu"
 date: "11/4/2021"
 output: pdf_document
 ---
