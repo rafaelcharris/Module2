@@ -20,3 +20,9 @@ $$
 \beta_{4}\text{Ethnicity}[j]*\text{Prob(Threat}[t]) +
 \beta_{5}\text{(Per Ethnicity[j])}
 $$
+
+Shiny app is a powerful tool to visualize research findings. In the app, we are interested in a research question of whether officers in New Jersey discriminately use different types of forces against different ethnicity of subjects in 2012-2016. In order to answer the causal question, we draw a directed acyclic graph (DAG) that not only helps us to logically analyze the causal inference but also explicitly illustrate our thinking.
+ 
+In the DAG, the outcome variable is the percentage of using a certain type of force (force) while the predictor variables include the ethnicity of subjects (subject), the ethnicity of officers (officer), the percentage of threats (threat), and the crime rate (crime). We use the percentage of incidents/arrests per population as a proxy of crime rate. In addition to the direct effect of subject into force, it is reasonable to control the impact of threat type and crime rate associated with the ethnicity of subjects.
+ 
+There are two main data problems that we need to cope with in the module. Firstly, there is an obstacle of directly quantifying the causal effect as we need more detailed and individual data. Thus, we decide to do a qualitative analysis and do as much as we can. Secondly, the analyses work with county-level data that requires us to find additional data sources of geographic location and population. While the former is used to build up a geo map, the latter allows us to transform city-level data into county-level data by weighting cities' population ratio.
