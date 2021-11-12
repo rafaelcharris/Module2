@@ -139,27 +139,3 @@ df_cl <- df_city_pop %>%
 # Save the data set
 df_cl %>%
   write.csv("county_level_df.csv")
-
-
-
-df_cl %>% 
-  select(county,
-         per_police_white_cl
-         ,per_police_asian_cl
-         ,per_police_hisp_cl
-         ,per_police_black_cl
-         ,per_subject_white_cl
-         ,per_subject_asian_cl
-         ,per_subject_hisp_cl
-         ,per_subject_black_cl
-         ,per_officers_injured_cl,
-         per_subjects_injured_cl) %>%
-  View()
-
-
-
-try %>%
-  group_by(county) %>%
-  summarise(per = sum(perc_total_pop)) %>%
-  arrange(desc(per))
-
