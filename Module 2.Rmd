@@ -2,7 +2,9 @@
 title: "Model 2"
 author: "Rafael Charris & Steve Vu"
 date: "11/4/2021"
-output: pdf_document
+output:
+  html_document:
+    df_print: paged
 ---
 
 # Use of force and ethnicity
@@ -32,7 +34,7 @@ There are two main data problems that we need to cope with in the module. Firstl
 Across all counties in New Jersey, African-Americans seem to be over represented as subjects in incidents with the police with respect to their distribution in the general population whereas Asians and Hispanics seem to be underrepresented at the state level.
 There is something important to point out: the people in that are subjects incidents with the police are not necessarily residents of the counties or cities where they faced problems with law enforcement. That will make that, sometimes, the distribution of the general population and the distribution of subjects will not align.
 
-Other possible source of error is the quality of the data. The second column in the barplot that appers on the first page of our app shows that for many counties the ethnic distribution of the police departments is incomplete: this maybe due to administrative errors or lack of interest in keeping track of these statistics. This makes it hard to evaluate whether more racially diverse departments are less biased in their treatment of different groups.
+Other possible source of error is the quality of the data. The second column in the bar plot that appears on the first page of our app shows that for many counties the ethnic distribution of the police departments is incomplete: this maybe due to administrative errors or lack of interest in keeping track of these statistics. This makes it hard to evaluate whether more racially diverse departments are less biased in their treatment of different groups.
 
 The information comes form two sources. the information regarding the ethnic distribution of the general population comes from the (new jersey data book)[https://njdatabook.rutgers.edu/] and the data of the incidents Advanced Media NJ.
 
@@ -40,3 +42,8 @@ The information comes form two sources. the information regarding the ethnic dis
 Explain estimated crime rate: 
 explain our weighting technique
 
+## Interactive App
+
+```{r, fig.dim=c(10,20), echo = FALSE}
+knitr::include_app('https://benjaminchase.shinyapps.io/Module2App/',  height = "800px")
+```
