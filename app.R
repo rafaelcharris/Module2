@@ -40,7 +40,7 @@ nj_counties<- counties("NJ",
 nj_mun <- read.csv(".//appdata//municipality.csv")
 
 #2.4 Load data at the county level 
-df_cl <- read.csv(".//data//county_level_df.csv")
+df_cl <- read.csv(".//appdata//county_level_df.csv")
 #2.4.1 Load data at the county level with extended data
 df_cl_ext <- read.csv(".//appdata//county_level_df_ext.csv")
 
