@@ -26,3 +26,17 @@ Shiny app is a powerful tool to visualize research findings. In the app, we are 
 In the DAG, the outcome variable is the percentage of using a certain type of force (force) while the predictor variables include the ethnicity of subjects (subject), the ethnicity of officers (officer), the percentage of threats (threat), and the crime rate (crime). We use the percentage of incidents/arrests per population as a proxy of crime rate. In addition to the direct effect of subject into force, it is reasonable to control the impact of threat type and crime rate associated with the ethnicity of subjects.
  
 There are two main data problems that we need to cope with in the module. Firstly, there is an obstacle of directly quantifying the causal effect as we need more detailed and individual data. Thus, we decide to do a qualitative analysis and do as much as we can. Secondly, the analyses work with county-level data that requires us to find additional data sources of geographic location and population. While the former is used to build up a geo map, the latter allows us to transform city-level data into county-level data by weighting cities' population ratio.
+
+## Interesting Findings
+
+Across all counties in New Jersey, African-Americans seem to be over represented as subjects in incidents with the police with respect to their distribution in the general population whereas Asians and Hispanics seem to be underrepresented at the state level.
+There is something important to point out: the people in that are subjects incidents with the police are not necessarily residents of the counties or cities where they faced problems with law enforcement. That will make that, sometimes, the distribution of the general population and the distribution of subjects will not align.
+
+Other possible source of error is the quality of the data. The second column in the barplot that appers on the first page of our app shows that for many counties the ethnic distribution of the police departments is incomplete: this maybe due to administrative errors or lack of interest in keeping track of these statistics. This makes it hard to evaluate whether more racially diverse departments are less biased in their treatment of different groups.
+
+The information comes form two sources. the information regarding the ethnic distribution of the general population comes from the (new jersey data book)[https://njdatabook.rutgers.edu/] and the data of the incidents Advanced Media NJ.
+
+
+Explain estimated crime rate: 
+explain our weighting technique
+
